@@ -6,9 +6,6 @@ import java.time.format.DateTimeFormatter;
 
 import static org.junit.Assert.assertNotNull;
 
-/**
- * Created by boazc on 26/06/2016.
- */
 public class TimeServiceTest {
 
     @Test
