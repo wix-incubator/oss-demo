@@ -24,4 +24,9 @@ public class TimeServiceTest {
         assertNotNull(DateTimeFormatter.ofPattern("uuuu-MM-dd'T'HH:mm:ss.SSS'Z'").parse(new TimeService().now()));
     }
 
+    @Test
+    public void testNow4() {
+        assertNotNull(DateTimeFormatter.ofPattern("uuuu-MM-dd'T'HH:mm:ss.SSS'Z'").parse(new TimeService().now()));
+    }
+
 }
